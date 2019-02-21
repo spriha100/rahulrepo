@@ -19,7 +19,7 @@ System.setProperty("webdriver.chrome.driver","S:\\EclipseWork\\seleniumautomatio
      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 // Use page Object library now
 Login_Page.txtbx_UserName(driver).sendKeys("rahulkumar_8550@rediffmail.com");
-Login_Page.txtbx_Password(driver).sendKeys("Shinjini@123");
+Login_Page.txtbx_Password(driver).sendKeys("jini@123");
 Login_Page.btn_LogIn(driver).click();
 System.out.println("Login Successfully");
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
