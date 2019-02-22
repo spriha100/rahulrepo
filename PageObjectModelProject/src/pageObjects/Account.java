@@ -5,6 +5,7 @@ public class Account
 	String id;
 	int a=0;
 	String name;
+	String m;
 	final int roi=10;
 	
 	int balance=0;	
