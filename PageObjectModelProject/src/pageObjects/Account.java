@@ -3,13 +3,17 @@ package pageObjects;
 public class Account
 {	
 	String id;
+	int a=0;
 	String name;
-	final int roi=9;
+	final int roi=10;
+	
 	int balance=0;	
 	Account(String id,String name)
 	{
 	this.id=id;
 	this.name=name;
+	
+	
 	}
 	
 	Account(String id,String name,int balance)
@@ -20,6 +24,8 @@ public class Account
 	}
 	String getId()
 	{
+		
+		
 		return id;
 	}
 	String getName()
